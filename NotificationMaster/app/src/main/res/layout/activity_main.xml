@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.androidwarriors.notificationmaster.MainActivity">
+
+
+    <Button
+        android:id="@+id/btn_not_simple"
+        android:layout_marginTop="50dp"
+        android:layout_centerHorizontal="true"
+        android:text="Simple notification"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+
+    <Button
+        android:id="@+id/btn_not_expand"
+        android:layout_marginTop="150dp"
+        android:layout_centerHorizontal="true"
+        android:text="Expanded notification"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+
+    <Button
+        android:id="@+id/btn_not_btn"
+        android:layout_marginTop="250dp"
+        android:layout_centerHorizontal="true"
+        android:text="notification with button"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp" />
+</RelativeLayout>
